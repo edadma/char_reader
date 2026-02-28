@@ -1,16 +1,16 @@
-# char-reader
+# char_reader
 
-![Maven Central](https://img.shields.io/maven-central/v/io.github.edadma/char-reader_3)
-![GitHub](https://img.shields.io/github/license/edadma/char-reader)
-![Scala Version](https://img.shields.io/badge/Scala-3.7.4-blue.svg)
-![ScalaJS Version](https://img.shields.io/badge/Scala.js-1.20.1-blue.svg)
-![Scala Native Version](https://img.shields.io/badge/Scala_Native-0.5.9-blue.svg)
+![Maven Central](https://img.shields.io/maven-central/v/io.github.edadma/char_reader_3)
+![GitHub](https://img.shields.io/github/license/edadma/char_reader)
+![Scala Version](https://img.shields.io/badge/Scala-3.8.2-blue.svg)
+![Scala.js Version](https://img.shields.io/badge/Scala.js-1.20.2-blue.svg)
+![Scala Native Version](https://img.shields.io/badge/Scala_Native-0.5.10-blue.svg)
 
 A Scala library for intelligent character-by-character reading with automatic indentation tracking.
 
 ## Overview
 
-`char-reader` provides a powerful abstraction for parsing text with significant whitespace. It automatically generates `INDENT` and `DEDENT` tokens when indentation levels change, making it ideal for parsing languages like Python, YAML, or any custom DSL that uses indentation for structure.
+`char_reader` provides a powerful abstraction for parsing text with significant whitespace. It automatically generates `INDENT` and `DEDENT` tokens when indentation levels change, making it ideal for parsing languages like Python, YAML, or any custom DSL that uses indentation for structure.
 
 Key features include:
 - **Automatic indentation tracking** with configurable indentation styles
@@ -25,7 +25,7 @@ Key features include:
 Add the dependency to your `build.sbt`:
 
 ```scala
-libraryDependencies += "io.github.edadma" %%% "char_reader" % "0.1.24"
+libraryDependencies += "io.github.edadma" %%% "char_reader" % "0.1.25"
 ```
 
 For cross-platform projects, use `%%%` to automatically select the appropriate artifact.
@@ -159,32 +159,6 @@ sbt charReaderNative/test
 sbt publishSigned
 ```
 
-## Contributing
-
-This project welcomes contributions from the community. Contributions are accepted using GitHub pull requests.
-
-For a good pull request, please provide:
-
-1. **Clear description**: Include the "what" and "why" of your changes
-2. **Passing tests**: Ensure existing tests pass and add new tests for new features
-3. **Test coverage**: Use `sbt coverage test` to generate coverage reports
-4. **Documentation**: Update README if adding new features
-5. **Code style**: Run `scalafmt` to maintain consistent formatting
-
-## Testing
-
-Run the test suite:
-
-```bash
-sbt clean test
-```
-
-Generate coverage report:
-
-```bash
-sbt clean coverage test coverageReport
-```
-
 ## License
 
-This project is licensed under the [ISC License](https://opensource.org/licenses/ISC).
+[ISC](https://opensource.org/licenses/ISC)
