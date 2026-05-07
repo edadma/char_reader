@@ -1,9 +1,7 @@
 package io.github.edadma.char_reader
 
-object Main extends App with Testing {
+@main def runMain(): Unit =
+  val testing = new Testing {}
+  val s       = " a\n"
 
-  val s = " a\n"
-
-  println(noindent(s))
-
-}
+  println(testing.noindent(s))
