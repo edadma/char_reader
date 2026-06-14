@@ -2,9 +2,9 @@
 
 ![Maven Central](https://img.shields.io/maven-central/v/io.github.edadma/char_reader_3)
 ![GitHub](https://img.shields.io/github/license/edadma/char_reader)
-![Scala Version](https://img.shields.io/badge/Scala-3.8.3-blue.svg)
+![Scala Version](https://img.shields.io/badge/Scala-3.8.4-blue.svg)
 ![Scala.js Version](https://img.shields.io/badge/Scala.js-1.21.0-blue.svg)
-![Scala Native Version](https://img.shields.io/badge/Scala_Native-0.5.11-blue.svg)
+![Scala Native Version](https://img.shields.io/badge/Scala_Native-0.5.12-blue.svg)
 
 A Scala library for intelligent character-by-character reading with automatic indentation tracking.
 
