@@ -25,7 +25,7 @@ Key features include:
 Add the dependency to your `build.sbt`:
 
 ```scala
-libraryDependencies += "io.github.edadma" %%% "char_reader" % "0.1.27"
+libraryDependencies += "io.github.edadma" %%% "char_reader" % "0.1.28"
 ```
 
 For cross-platform projects, use `%%%` to automatically select the appropriate artifact.

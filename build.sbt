@@ -7,7 +7,7 @@ ThisBuild / scalaVersion           := "3.8.3"
 ThisBuild / organization           := "io.github.edadma"
 ThisBuild / organizationName       := "edadma"
 ThisBuild / organizationHomepage   := Some(url("https://github.com/edadma"))
-ThisBuild / version                := "0.1.27"
+ThisBuild / version                := "0.1.28"
 ThisBuild / sonatypeCredentialHost := sonatypeCentralHost
 
 ThisBuild / publishConfiguration := publishConfiguration.value.withOverwrite(true).withChecksums(Vector.empty)
@@ -54,7 +54,7 @@ lazy val char_reader = crossProject(JSPlatform, JVMPlatform, NativePlatform)
     publishMavenStyle                          := true,
     Test / publishArtifact                     := false,
     libraryDependencies += "org.scalatest"    %%% "scalatest"      % "3.2.19" % "test",
-    libraryDependencies += "io.github.edadma" %%% "cross_platform" % "0.1.6",
+    libraryDependencies += "io.github.edadma" %%% "cross_platform" % "0.1.7",
   )
   .jvmSettings(
     libraryDependencies += "org.scala-js" %% "scalajs-stubs" % "1.1.0" % "provided",
